@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prismpalette.vercel.app/sitemap.xml
