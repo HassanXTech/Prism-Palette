@@ -42,4 +42,4 @@ index.html, vite.config.ts, tailwind.config.js
 ```
 
 ### License
-MIT
+MIT - @HassanXTech
