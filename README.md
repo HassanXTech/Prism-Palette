@@ -1,4 +1,4 @@
-# Prism - Soft UI Palette Generator
+<h1 align="center">Prism - Soft UI Palette Generator</h1>
 
 <div align="center">
   <img src="/public/prism.png" alt="Prism Logo" width="120" height="120" />
