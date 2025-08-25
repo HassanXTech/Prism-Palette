@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prism OG Banner Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .banner {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 50%, #8b5cf6 100%);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        .logo {
+            font-size: 120px;
+            font-weight: 900;
+            color: white;
+            text-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+        .tagline {
+            font-size: 36px;
+            font-weight: 600;
+            color: white;
+            text-align: center;
+            max-width: 800px;
+            line-height: 1.2;
+            text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+        }
+        .subtitle {
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            max-width: 600px;
+            line-height: 1.4;
+            text-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        .color-palette {
+            position: absolute;
+            bottom: 40px;
+            display: flex;
+            gap: 15px;
+        }
+        .color-swatch {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            border: 3px solid rgba(255, 255, 255, 0.2);
+        }
+        .swatch-1 { background: #0ea5e9; }
+        .swatch-2 { background: #3b82f6; }
+        .swatch-3 { background: #8b5cf6; }
+        .swatch-4 { background: #ec4899; }
+        .swatch-5 { background: #f59e0b; }
+        .download-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        .download-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="logo">PRISM</div>
+        <div class="tagline">Soft UI Palette Generator</div>
+        <div class="subtitle">Generate beautiful neumorphic color palettes and copy CSS variables in one click</div>
+        <div class="color-palette">
+            <div class="color-swatch swatch-1"></div>
+            <div class="color-swatch swatch-2"></div>
+            <div class="color-swatch swatch-3"></div>
+            <div class="color-swatch swatch-4"></div>
+            <div class="color-swatch swatch-5"></div>
+        </div>
+        <button class="download-btn" onclick="downloadBanner()">Download Banner</button>
+    </div>
+
+    <script>
+        function downloadBanner() {
+            const banner = document.querySelector('.banner');
+            html2canvas(banner, {
+                width: 1200,
+                height: 630,
+                scale: 1,
+                backgroundColor: null
+            }).then(canvas => {
+                const link = document.createElement('a');
+                link.download = 'prism-og-banner.png';
+                link.href = canvas.toDataURL();
+                link.click();
+            });
+        }
+    </script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</body>
+</html>

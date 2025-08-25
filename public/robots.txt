@@ -1,3 +1,28 @@
+# Prism Palette - Robots.txt
+# Allow all crawlers
 User-agent: *
 Allow: /
+
+# Disallow admin and private areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /404
+Disallow: /500
+
+# Host
+Host: https://prismpalette.vercel.app
+
+# Sitemaps
 Sitemap: https://prismpalette.vercel.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Additional SEO directives
+Allow: /palettes/
+Allow: /generator/
+Allow: /inspiration/
+Allow: /colors/
+Allow: /palette/

@@ -1,0 +1,21 @@
+{
+  "name": "Prism - Soft UI Palette Generator",
+  "short_name": "Prism",
+  "description": "Generate beautiful soft-UI (neumorphic) color palettes and copy CSS variables in one click. Professional color tools for designers and developers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#0ea5e9",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/prism.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["web", "design", "development", "color", "palette", "ui", "neumorphic", "soft-ui"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
