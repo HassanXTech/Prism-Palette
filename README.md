@@ -58,14 +58,6 @@ npm run build
 - **Icons**: Lucide React
 - **State Management**: React Hooks
 
-## 📱 Screenshots
-
-<div align="center">
-  <img src="/public/screenshots/screenshot-1.png" alt="Prism Hero Section" width="300" />
-  <img src="/public/screenshots/screenshot-2.png" alt="Color Picker Interface" width="300" />
-  <img src="/public/screenshots/screenshot-3.png" alt="Palette Generation" width="300" />
-</div>
-
 ## 🔧 Configuration
 
 ### Environment Variables
