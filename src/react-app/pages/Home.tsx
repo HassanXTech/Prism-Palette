@@ -56,6 +56,17 @@ export default function Home() {
               Generate beautiful color palettes with perfect shadows and highlights for your soft UI designs
             </p>
             
+            {/* Peerlist Embed */}
+            <div className="mb-8 flex justify-center">
+              <a href="https://peerlist.io/hassantech/project/prism" target="_blank" rel="noreferrer">
+                <img
+                  src="https://peerlist.io/api/v1/projects/embed/PRJHNN7BQDP7AQA6R3O8O79R8BLM6Q?showUpvote=true&theme=light"
+                  alt="Prism"
+                  style={{ width: 'auto', height: '72px' }}
+                />
+              </a>
+            </div>
+            
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 relative z-10">
               <ColorPicker value={baseColor} onChange={setBaseColor} />
               
@@ -110,7 +121,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="max-w-7xl mx-auto px-6 py-8 mt-16">
         <div className="text-center text-gray-500 text-sm">
-          <p>
+          <p className="mb-4">
             Built with love for soft UI design enthusiasts — by
             {' '}
             <a
@@ -122,6 +133,17 @@ export default function Home() {
               HassanXTech
             </a>
           </p>
+          
+          {/* Peerlist Footer Embed */}
+          <div className="flex justify-center">
+            <a href="https://peerlist.io/hassantech/project/prism" target="_blank" rel="noreferrer">
+              <img
+                src="https://peerlist.io/api/v1/projects/embed/PRJHNN7BQDP7AQA6R3O8O79R8BLM6Q?showUpvote=true&theme=light"
+                alt="Prism on Peerlist"
+                style={{ width: 'auto', height: '48px' }}
+              />
+            </a>
+          </div>
         </div>
       </footer>
     </div>

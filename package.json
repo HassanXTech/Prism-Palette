@@ -36,6 +36,6 @@
     "build": "tsc -b && vite build",
     "dev": "vite",
     "lint": "eslint .",
-    "postbuild": "next-sitemap"
+    "postbuild": "echo 'Sitemap generation skipped for Vite project'"
   }
 }

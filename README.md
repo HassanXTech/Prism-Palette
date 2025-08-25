@@ -6,6 +6,7 @@
   <p><strong>Generate beautiful soft-UI (neumorphic) color palettes and copy CSS variables in one click</strong></p>
   
   [![Website](https://img.shields.io/badge/Website-Live-blue?style=for-the-badge)](https://prismpalette.vercel.app)
+  [![Peerlist](https://img.shields.io/badge/Peerlist-Project-blue?style=for-the-badge)](https://peerlist.io/hassantech/project/prism)
   [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
   [![Made with React](https://img.shields.io/badge/Made%20with-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
   [![Made with TypeScript](https://img.shields.io/badge/Made%20with-TypeScript-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -26,6 +27,14 @@
 
 ### Online Demo
 Visit [Prism Palette Generator](https://prismpalette.vercel.app) to start creating beautiful color palettes right now!
+
+<a href="https://peerlist.io/hassantech/project/prism" target="_blank" rel="noreferrer">
+  <img
+    src="https://peerlist.io/api/v1/projects/embed/PRJHNN7BQDP7AQA6R3O8O79R8BLM6Q?showUpvote=true&theme=light"
+    alt="Prism on Peerlist"
+    style="width: auto; height: 72px;"
+  />
+</a>
 
 ### Local Development
 
