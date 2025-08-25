@@ -23,19 +23,6 @@
 - 💾 **Save & Share**: Save your favorite palettes and share with your team
 - 🚀 **Lightning Fast**: Optimized for performance and speed
 
-## 🚀 Quick Start
-
-### Online Demo
-Visit [Prism Palette Generator](https://prismpalette.vercel.app) to start creating beautiful color palettes right now!
-
-<a href="https://peerlist.io/hassantech/project/prism" target="_blank" rel="noreferrer">
-  <img
-    src="https://peerlist.io/api/v1/projects/embed/PRJHNN7BQDP7AQA6R3O8O79R8BLM6Q?showUpvote=true&theme=light"
-    alt="Prism on Peerlist"
-    style="width: auto; height: 72px;"
-  />
-</a>
-
 ### Local Development
 
 ```bash
